@@ -25,15 +25,22 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop dark design](./screenshots/desktop-dark.png)
-![Desktop light design](./screenshots/desktop-light.png)
-![Mobile dark design](./screenshots/phone-dark.png)
-![Mobile light design](./screenshots/phone-light.png)
+#### Desktop dark theme
+<img src="./screenshots/desktop-dark.png" width="512" alt="Desktop dark design">
+
+#### Desktop light theme
+<img src="./screenshots/desktop-light.png" width="512" alt="Desktop light design">
+
+#### Mobile dark theme
+<img src="./screenshots/phone-dark.png" height="512" alt="Mobile dark design">
+
+#### Mobile light theme
+<img src="./screenshots/phone-light.png" height="512" alt="Mobile light design">
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/linquint/product-preview-card-component)
+- Live Site URL: [Vercel](https://product-preview-card-component-linquint.vercel.app/)
 
 ## My process
 
