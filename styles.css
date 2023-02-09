@@ -1,0 +1,65 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --dark-cyan: hsl(158, 36%, 37%);
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --background: hsl(30, 38%, 92%);
+        --card-background: hsl(0, 0%, 100%);
+        --tag-color: hsl(0, 0%, 30%);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: hsl(210, 92%, 10%);
+        --card-background: hsl(0, 0%, 10%);
+        --tag-color: hsl(0, 0%, 70%);
+    }
+}
+
+body {
+    background: var(--background);
+    height: 100vh;
+    margin: 0;
+}
+
+.attribution {
+    position: fixed;
+    bottom: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.card {
+    width: clamp(384px, 50%, 768px);
+    border-radius: 12px;
+    background: var(--card-background);
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.card img {
+    width: 50%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 12px 0 0 12px;
+}
+
+.card div {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-tag {
+    text-transform: uppercase;
+    color: var(--tag-color);
+}
